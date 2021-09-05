@@ -54,7 +54,8 @@ def num8(time_horas):
     pago = time_horas * 20000 - descuento
     return pago, descuento
 
-
+def num9(init, end):
+    return (init - end) - ((init - end) * 0.2)
 
 
 
