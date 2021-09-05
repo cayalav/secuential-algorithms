@@ -60,7 +60,11 @@ def num9(init, end):
 def num10(num_pics):
     return (num_pics * 1500) + ((num_pics * 1500) * 0.16)
 
-
+def num11(amount):
+    gynec =  amount * 0.4
+    traumat = amount * 0.3
+    pediac = amount * 0.3
+    return gynec, traumat, pediac
 
 
 
