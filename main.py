@@ -74,6 +74,7 @@ def num13(n_personas, num_days):
     total_iva = total + total * 0.12
     return total_iva
 
-
+def num14(num_days):
+    return ((num_days - 1) * 200000) + 100000
 
 
