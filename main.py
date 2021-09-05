@@ -57,7 +57,8 @@ def num8(time_horas):
 def num9(init, end):
     return (init - end) - ((init - end) * 0.2)
 
-
+def num10(num_pics):
+    return (num_pics * 1500) + ((num_pics * 1500) * 0.16)
 
 
 
