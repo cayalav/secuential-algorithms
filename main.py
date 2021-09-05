@@ -66,7 +66,8 @@ def num11(amount):
     pediac = amount * 0.3
     return gynec, traumat, pediac
 
-
+def num12(num_movies, num_days):
+    return ((num_movies - 1) * 1500) * num_days
 
 
 
