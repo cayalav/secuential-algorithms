@@ -34,7 +34,14 @@ def num3(inv1, inv2, inv3):
 def num4(balance):
     return balance + (balance * 0.015)
 
+def num5(salary):
+    law = salary * 0.01
+    social_sec = salary * 0.04
+    force_ins = salary * 0.005
+    cash = salary * 0.05
+    salary_end = salary - law - social_sec - force_ins - cash
 
+    return law, social_sec, force_ins, cash, salary_end
 
 
 
