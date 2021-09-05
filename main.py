@@ -77,4 +77,8 @@ def num13(n_personas, num_days):
 def num14(num_days):
     return ((num_days - 1) * 200000) + 100000
 
-
+def num15(tot_amount):
+    tot_payment = (tot_amount * 0.24) + tot_amount
+    special_fee = tot_payment / 2 / 4
+    ordinary_fee = tot_payment / 2 / 20
+    return special_fee, ordinary_fee
