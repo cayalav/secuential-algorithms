@@ -43,7 +43,8 @@ def num5(salary):
 
     return law, social_sec, force_ins, cash, salary_end
 
-
+def num6(num_words, tam, col):
+    return (num_words * 20000) + (tam * 15000) + (col * 25000)
 
 
 
