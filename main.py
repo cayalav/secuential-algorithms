@@ -24,7 +24,12 @@ def num1(p, v, t):
 def num2(age):
     return (200 - age) / 10
 
-
+def num3(inv1, inv2, inv3):
+    total = inv1 + inv2 + inv3
+    porcentaje1 = inv1 * 100 / total
+    porcentaje2 = inv2 * 100 / total
+    porcentaje3 = inv3 * 100 / total
+    return porcentaje1, porcentaje2, porcentaje3
 
 
 
