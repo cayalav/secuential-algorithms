@@ -20,3 +20,31 @@ def num3fun():
 # Num 2
 def num1(p, v, t):
     return (p * v) / (0.37 * (t + 460))
+
+def num2(age):
+    return (200 - age) / 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
