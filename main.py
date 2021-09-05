@@ -31,7 +31,8 @@ def num3(inv1, inv2, inv3):
     porcentaje3 = inv3 * 100 / total
     return porcentaje1, porcentaje2, porcentaje3
 
-
+def num4(balance):
+    return balance + (balance * 0.015)
 
 
 
