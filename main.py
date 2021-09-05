@@ -69,7 +69,10 @@ def num11(amount):
 def num12(num_movies, num_days):
     return ((num_movies - 1) * 1500) * num_days
 
-
+def num13(n_personas, num_days):
+    total = (n_personas * 25000) * num_days
+    total_iva = total + total * 0.12
+    return total_iva
 
 
 
