@@ -46,7 +46,8 @@ def num5(salary):
 def num6(num_words, tam, col):
     return (num_words * 20000) + (tam * 15000) + (col * 25000)
 
-
+def num7(time):
+    return 100000 + (120000 * (time - 1))
 
 
 
