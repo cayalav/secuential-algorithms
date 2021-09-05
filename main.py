@@ -49,6 +49,10 @@ def num6(num_words, tam, col):
 def num7(time):
     return 100000 + (120000 * (time - 1))
 
+def num8(time_horas):
+    descuento = (time_horas * 20000) * 0.05
+    pago = time_horas * 20000 - descuento
+    return pago, descuento
 
 
 
